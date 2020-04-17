@@ -39,7 +39,7 @@ resource "aws_instance" "jcs_ec2" {
 
 resource "aws_key_pair" "jithin" {
   key_name   = "jithin-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnApqM+pjvFFm85ICjWMFapLLmGaJPelPvE4Eit+YUiKHhwk8g033DNAKLPk6dPRIMN3U2Mg9zB/rM5fwfS98OeRW7GqSQGZVssiwTMdUfTpb+rgD/PDs1I+YdHIus8+/sDGQQ5F2FOukUyg7w9bHtwTMj8OV2uNWMCwr96g8EEwnykB3pO8OYq3jVpmZWWrItruqdgRUo+H+2LpTvZW1GphZ7MQGF3DJSQawePOKvQk0oFH3+XIwdNHwv1iFx0lbopROPotgHIf15gbir3jhIkwql+JisZr/z0qJBSutHZ74fHgfYmho5ljnE9zdp4bfTl+r1pz6e5xgSZ7sZGxap jithin@jithin-pirai"
+  public_key = "ssh-rsa ###################################################################################################################################################################################################################################################################################################################################################################################################################################################jithin@jithin-jithin"
 }
 
 output "ec2_ip" {
